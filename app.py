@@ -17,7 +17,8 @@ def get_openlabel_annotation():
 
 @app.route('/')
 def annotel_program():
-    return 'You are in annotel program!'
+    info = "Welcome to the annotel converter!"
+    return info
 
 
 @app.route('/openlabel/')
