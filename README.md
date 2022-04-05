@@ -14,4 +14,16 @@
 
 2. How to install and use the python-library?
    - Open your project folder that was cloned with the terminal
-   - activate venv in Windows:
+   - Install Python Virtual Environment, You can follow this instruction to install:
+      https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
+   OR if you have MAC OS:
+      https://sourabhbajaj.com/mac-setup/Python/virtualenv.html
+      
+   - After you activated venv update your pip:
+      python -m pip install --upgrade pip
+      (OR python3 -m pip install --upgrade pip)
+      
+   - Then run following command to install required python libraries:
+      pip install -r requirements.txt --no-index
+      
+  
